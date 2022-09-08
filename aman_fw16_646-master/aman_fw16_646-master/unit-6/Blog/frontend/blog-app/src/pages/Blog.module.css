@@ -1,0 +1,89 @@
+
+.createbox{
+  width: 50%;
+  
+  margin: auto;
+  box-sizing: border-box;
+  padding: 40px;
+  height: max-content;
+  color:white;
+  border-radius: 20px;
+  background-color: rgb(32, 32, 32);
+}
+.createbox>form>input{
+  width: 80%;
+  height: 40px;
+}
+.createbox>form>select{
+  width: 40%;
+  height: 40px;
+  background-color: aliceblue;
+  margin-bottom: 40px;
+}
+
+.createbox>form>label{
+ font-size: 30px;
+ text-align: start;
+}
+.createbox>div{
+  text-align: center;
+  margin-top: 40px;
+}
+.createbox>form>textarea{
+  width: 80%;
+  height: 100px;
+}
+.singlebox{
+  background-color: rgb(31, 29, 29);
+  color:aliceblue;
+  
+  padding: 30px;
+}
+.singlebox>div:nth-child(2){
+  text-align: center;
+}
+.ConfirmDelete{
+  background-color: rgb(31, 29, 29);
+  color:aliceblue;
+  text-align: center;
+  padding: 40px;
+  width: 40%;
+  margin: auto;
+  border-radius: 20px;
+}
+.ConfirmDelete>div>button{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ConfirmDelete>div>button:first-child:hover{
+  background-color: red;
+  color: white;
+}
+.ConfirmDelete>div>button:last-child:hover{
+  background-color: green;
+  color: white;
+}
+
+
+@media screen and (max-width:841px) {
+  .createbox>form>input{
+    width: 100%;
+    height: 40px;
+  }
+  .createbox>form>textarea{
+  width: 100%;
+  height: 100px;
+}
+.createbox>form>label{
+  font-size: 16px;
+  text-align: start;
+ }
+}
+
+
+.reply>input{
+ font-size: 15px;
+ height:23px;
+ margin-left: 10px;
+}

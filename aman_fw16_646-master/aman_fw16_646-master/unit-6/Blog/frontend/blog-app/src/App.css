@@ -1,0 +1,21 @@
+.card{
+  margin:10%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.navbar{
+  margin-bottom: 100px;
+}
+.navbar>h3>a{
+ color:white;
+ text-decoration: none;
+}
+.btn-primary{
+  margin: 20px;
+  background-color: rgb(32, 32, 32);
+  border: none;
+}
+
+#check{
+  width: 30px;
+  height: 30px;
+}

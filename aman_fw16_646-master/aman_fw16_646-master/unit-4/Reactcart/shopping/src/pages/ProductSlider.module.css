@@ -1,0 +1,10 @@
+.pimg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: lightgray;
+    gap:20px;
+}
+.pimg>div>div>img{
+    width: 100%;
+    height: auto;
+}

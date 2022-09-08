@@ -1,0 +1,9 @@
+{
+    "db":{
+        "username":"proadmin",
+        "password":"propassword",
+        "url": "mongodb:///pro.atlas.com/devdb"
+    },
+    "s3url": "pro.s3.aws.com"
+}
+

@@ -1,0 +1,22 @@
+
+#categories..
+[
+  { _id: ObjectId("62b6aa5b0c254ef2178c3e66"), Name: 'movies' },
+  { _id: ObjectId("62b6aa700c254ef2178c3e67"), Name: 'poltics' },
+  { _id: ObjectId("62b6aa800c254ef2178c3e68"), Name: 'sports' },
+  { _id: ObjectId("62b6aa8b0c254ef2178c3e69"), Name: 'education' },
+  { _id: ObjectId("62b6aa9f0c254ef2178c3e6a"), Name: 'finance' }
+]
+
+
+
+
+{
+    Name:"Aman",
+    Email:"aman.jaiswal0612@gmail.com",
+    Profile:{linkedin:"AmanL",facebook:"AmanF",twitter:"AmanT"},
+    Addresses:[
+        {line1:"7hf 2/13g BHColony",city:"patna",state:"bihar",pincode:800026}
+    ],
+    Blog_id:[]
+}

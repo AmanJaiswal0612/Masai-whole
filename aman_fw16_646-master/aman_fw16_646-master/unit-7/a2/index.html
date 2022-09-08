@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 100px;
+        align-items: center;
+      }
+      #main > div > button {
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        background-color: teal;
+      }
+      #main>div>div{
+        /* display: none; */
+        visibility: hidden;
+        background-color: black;
+        color: aliceblue;
+        width: 80px;
+        height: 35px;
+        margin: 10px;
+        border-radius: 40px;
+        text-align: center;
+        
+      } 
+         
+      #bottom>div{
+        position: absolute;
+      }
+    
+      #top>div{
+        position: absolute;
+        top:50px
+      }
+      
+      #left,#right{
+        display: flex;
+        gap:10px;
+        align-items: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="left">
+        <div id="ldiv">Left</div>
+        <button id="lbtn" >Left</button>
+      </div>
+      <div id="top">
+        <div id="tdiv">Top</div>
+        <button id="tbtn">Top</button>
+      </div>
+      <div id="bottom" >
+        <button id="bbtn" >Bottom</button>
+        <div id="bdiv">Bottom</div>
+      </div>
+      <div id="right">
+        <button id="rbtn">Right</button>
+        <div id="rdiv">Right</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+   let bdiv= document.getElementById("bdiv")
+   let rdiv= document.getElementById("rdiv")
+   let tdiv= document.getElementById("tdiv")
+   let ldiv= document.getElementById("ldiv")
+
+   document.getElementById("bbtn").addEventListener("mouseover",()=>{
+      bdiv.style.visibility="visible"
+   })
+   document.getElementById("bbtn").addEventListener("mouseout",()=>{
+      bdiv.style.visibility="hidden"
+   })
+   document.getElementById("rbtn").addEventListener("mouseover",()=>{
+      rdiv.style.visibility="visible"
+   })
+   document.getElementById("rbtn").addEventListener("mouseout",()=>{
+      rdiv.style.visibility="hidden"
+   })
+   document.getElementById("lbtn").addEventListener("mouseover",()=>{
+      ldiv.style.visibility="visible"
+   })
+   document.getElementById("lbtn").addEventListener("mouseout",()=>{
+      ldiv.style.visibility="hidden"
+   })
+   document.getElementById("tbtn").addEventListener("mouseover",()=>{
+      tdiv.style.visibility="visible"
+   })
+   document.getElementById("tbtn").addEventListener("mouseout",()=>{
+      tdiv.style.visibility="hidden"
+   })
+   
+
+</script>

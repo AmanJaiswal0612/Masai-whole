@@ -1,0 +1,27 @@
+.todosearch{
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.todoitem{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.todobtn{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}

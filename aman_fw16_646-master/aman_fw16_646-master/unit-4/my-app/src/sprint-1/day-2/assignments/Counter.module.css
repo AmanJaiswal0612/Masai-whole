@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.main>button{
+    border-radius: 50px;
+    background-color: purple;
+    color: antiquewhite;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+.main>h1{
+    font-size: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+
+}

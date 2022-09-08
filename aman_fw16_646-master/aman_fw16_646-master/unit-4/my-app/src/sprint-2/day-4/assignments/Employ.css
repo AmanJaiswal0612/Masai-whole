@@ -1,0 +1,32 @@
+#employtable{
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+}
+#employtable>thead{
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 20px;
+}
+#employtable>thead>tr>th{
+    padding: 20px;
+    
+}
+#employtable>tbody{
+    background-color: black;
+    color: aliceblue;
+}
+#eform{
+    background-color: black;
+    color: aliceblue;
+    width: 40%;
+}
+#eform>div>input{
+    border-radius: 30px;
+}
+#formbox{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}

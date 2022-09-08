@@ -1,0 +1,73 @@
+#box{
+    width:70%;
+    margin: auto;
+    background-color: #55acee;
+}
+#main{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #054d52;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+#main>div{
+    width: 100px;
+    height: 70px;
+    border: 1px solid black;
+    border-style: dashed;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+#main>div>div:last-child{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+   
+}
+#main>div>div:first-child{
+    width: 15px;
+    padding: 6px;
+}
+#nav{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    color: white;
+    background-color: #096b77;
+    margin-bottom: 20px;
+}
+#formbox{
+    background-color:#086d79;
+    /* width: 63%; */
+    
+    margin: auto;
+    margin-top: 10px;
+}
+#form>input:first-child{
+    width: 60%;
+    height: 45px;
+    font-size: 35px;
+    margin: 10px;
+    text-align: center;
+}
+#form>input:last-child{
+    width: 30%;
+    font-size: 35px;
+    height: 45px;
+}
+#double{
+    background-color: red;
+    padding: 5px;
+}
+#triple{
+    background-color: blue;
+    padding: 5px;
+}

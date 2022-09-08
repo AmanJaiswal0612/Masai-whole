@@ -1,0 +1,85 @@
+const express= require("express")
+const {connection,Dish,Order,Restaurant,Rider,User}= require("./db.js")
+
+const app= express();
+app.use(express.urlencoded({extended:true}))
+app.use(express.json());
+
+
+app.get("/",(req,res)=>{
+  res.send("server on")
+})
+
+//get all restaurant by location
+app.get("/:city",async (req,res)=>{
+  const {city}= req.params.city;
+  let data= await Restaurant.find({"Location.city":city})
+  res.json(data)
+})
+
+//All the dishes available in a particular restaurant
+
+app.get("/res/:name", async(req,res)=>{
+  const {name}= req.params.name;
+  let res=await Restaurant.find({Name:name});
+  const Dish_ids= res.Dish_ids;
+  let allDish=[];
+  for(let i=0;i<Dish_ids;i++){
+     let dish=await Dish.find({_id:Dish_ids[i]})
+     allDish=[...allDish,...dish]
+  }
+ res.json({dishes:allDish})
+  
+})
+
+
+//Orders delivered by a particular rider
+
+app.get("/rider/:name",async(req,res)=>{
+  let rider= await Rider.find({Name:req.params.name});
+  let Order_id= rider.Order_id;
+  let order= await Order.find({_id:Order_id})
+  res.json(order)
+})
+
+
+//All the order of a particular user
+
+app.get("/user/order/:userID",async (req,res)=>{
+  let person= await User.find({_id:req.params.userID});
+  let Order_ids= person.Order_ids;
+  let all_order=[]
+  for(let i=0;i<Order_id;i++){
+    let order= await Order.find({_id:Order_ids[i]});
+    all_order=[...all_order,...order]
+  }
+   res.json({all_order:all_order})
+})
+
+
+//All the orders from a particular restaurant
+
+app.get("/res/order/:name",async (req,res)=>{
+  let restaurant= await Restaurant.find({Name:req.params.name});
+  let Order_ids= restaurant.Order_ids;
+  let all_order=[]
+  for(let i=0;i<Order_id;i++){
+    let order= await Order.find({_id:Order_ids[i]});
+    all_order=[...all_order,...order]
+  }
+   res.json({all_order:all_order})
+})
+
+
+ const PORT =process.env.PORT||8080
+
+ app.listen(PORT,async()=>{
+    try{
+        await connection
+        console.log("server on")
+    }
+    catch(e){
+        console.log(e);
+    }
+    
+})

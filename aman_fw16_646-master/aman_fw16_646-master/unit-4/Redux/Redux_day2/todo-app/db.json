@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "title": "Learn React",
+      "status": false,
+      "id": "uZZ0kORtuaGDXFg7e7y_v"
+    },
+    {
+      "title": "Learn Redux ",
+      "status": true,
+      "id": "xeHGe7O"
+    }
+  ]
+}

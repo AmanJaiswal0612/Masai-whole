@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evalution</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+      table>thead>tr>th{
+        border:1px solid red;
+        color:blue
+      }
+      table>tbody>tr>td{
+        border: 1px solid green;
+      }
+    </style>
+</head>
+<body>
+ <table>
+    <thead>
+        <tr>
+            <th>Currency Name</th>
+            <th>Currency Value</th>
+            <th>Amount of assets</th>
+            <th>BUY Currencies</th>
+        </tr>
+    </thead>
+    <tbody id="tbody" >
+
+    </tbody>
+
+ </table>
+
+    <script>
+       const tbody= document.getElementById("tbody");
+       let ws= io();
+       ws.on("initial",(data)=>{
+          data.map((el)=>{
+              let tr= document.createElement("tr");
+              let td1= document.createElement("td");
+              td1.innerText=el.name;
+              let td2= document.createElement("td");
+              td2.innerText= el.value;
+              let td3= document.createElement("td");
+              td3.innerText=el.count;
+              let td4= document.createElement("td");
+              td4.innerText= "BUY"
+              td4.addEventListener("click",async ()=>{
+                console.log(el._id)
+              let res= await fetch(`http://localhost:8080/${el._id}`,{
+                    method:'POST',
+                    headers:{'Cntent-Type':"application/json"},
+                    body:"1"
+                })
+                let data= await res.json()
+                alert(data.data)
+              })
+              tr.append(td1,td2,td3,td4);
+              tbody.appendChild(tr);
+          })
+       })
+       ws.on("changed",(data)=>{
+         tbody.innerHTML="";
+         data.map((el)=>{
+              let tr= document.createElement("tr");
+              let td1= document.createElement("td");
+              td1.innerText=el.name;
+              let td2= document.createElement("td");
+              td2.innerText= el.value;
+              let td3= document.createElement("td");
+              td3.innerText=el.count;
+              let td4= document.createElement("td");
+              td4.innerText= "ADD"
+              td4.addEventListener("click",async ()=>{
+                console.log(el._id)
+              let res= await fetch(`http://localhost:8080/${el._id}`,{
+                    method:'POST',
+                    headers:{'Cntent-Type':"application/json"},
+                    body:"1"
+                })
+                let data= await res.json()
+                alert(data.data)
+              })
+              tr.append(td1,td2,td3,td4);
+              
+              tbody.appendChild(tr);
+          })
+       })
+
+    //    ws.on()
+
+
+    </script>
+
+</body>
+</html>

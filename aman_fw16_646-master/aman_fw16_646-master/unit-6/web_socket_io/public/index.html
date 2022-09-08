@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div id="message" ></div>
+    <form id="chatform">
+        <input type="text" id="chatinput">
+        <button type="submit">Send</button>
+    </form>
+    <script>
+        let  ws= io();
+        
+        const form= document.getElementById("chatform");
+        const input= document.getElementById("chatinput");
+        const message= document.getElementById("message");
+
+        form.addEventListener("submit",function(e){
+            e.preventDefault();
+            ws.emit("newMessage", input.value);
+            input.value = ""
+        })
+
+        ws.on("newUser",()=>{
+            alert("New user Joined")
+        })
+
+        ws.on("newMessage", function(msg){
+            const div= document.createElement("div");
+            div.innerText= msg;
+            message.appendChild(div);
+        })
+
+        ws.on("history",(h)=>{
+            for(const msg of h){
+                const div= document.createElement("div");
+                div.innerText= msg;
+                message.appendChild(div)
+            }
+        })
+
+      
+
+    </script>
+</body>
+</html>
+

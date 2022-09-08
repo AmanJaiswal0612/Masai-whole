@@ -1,0 +1,9 @@
+.blogo{
+    width:100px;
+    height: 80px;
+}
+.dldiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

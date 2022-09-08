@@ -1,0 +1,18 @@
+.main{
+    width:36%;
+    margin: auto;
+}
+.main>input{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.main>div{
+    height: 240px;
+}
+.main>div>h3:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}

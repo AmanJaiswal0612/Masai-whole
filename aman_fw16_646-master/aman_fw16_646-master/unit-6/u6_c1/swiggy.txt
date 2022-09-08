@@ -1,0 +1,51 @@
+const mongoose= require("mongoose");
+
+const connection = mongoose.connect("mongodb://localhost:27017/Res-app")
+const ObjectId= mongoose.Schema.Types.ObjectId;
+const userSchema= new mongoose.Schema({
+  Name:String,
+  Email:String,
+  Mobile:Number,
+  Address:[String],
+  Order_ids:[ObjectId]
+})
+
+const User= mongoose.model("user",userSchema)
+
+const riderSchema= new mongoose.Schema({
+    Name:String,
+    email:String,
+    Order_id:ObjectId,
+    
+})
+
+const Rider= mongoose.model("rider",riderSchema)
+
+const restaurantSchema= new mongoose.Schema({
+    Name:String,
+    Location:{line1:String,city:String,pincode:Number},
+    Dish_ids:[ObjectId],
+    Order_ids:[ObjectId]
+})
+
+const Restaurant= mongoose.model("restaurant",restaurantSchema)
+
+const dishSchema= new mongoose.Schema({
+    Name:String,
+    Price:Number,
+    Quantity:Number
+})
+
+const Dish = mongoose.model("dish",dishSchema)
+const OrderSchema= new mongoose.Schema({
+    Order_Date:Date,
+    user_id:ObjectId,
+
+
+})
+const Order= mongoose.model("order",OrderSchema);
+
+
+
+
+module.exports={connection,Dish,Order,Restaurant,Rider,User}

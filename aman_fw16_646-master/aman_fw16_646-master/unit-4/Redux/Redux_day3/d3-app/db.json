@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "title": "Learn React-Redux",
+      "id": "x9NEMb8p0yMXhjvEIU6HO",
+      "status": false
+    },
+    {
+      "title": "Learn React",
+      "id": "BvwgP59N_3CHCl4ouZnUD",
+      "status": false
+    },
+    {
+      "title": "Learn thunk",
+      "id": "7SuLphp-A19iE8cjbMDLw",
+      "status": false
+    },
+    {
+      "title": "Learn Ui",
+      "id": "vzUnzKPue_iLACh7oKIMB",
+      "status": false
+    }
+  ]
+}

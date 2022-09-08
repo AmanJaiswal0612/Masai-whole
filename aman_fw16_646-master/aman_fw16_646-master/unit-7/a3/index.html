@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            width: 100%;
+           
+        }
+        #content{
+            display: flex;
+            justify-content: space-between;
+            gap:25px;
+            padding: 14px;
+            box-sizing: border-box;
+            cursor:pointer;
+        }
+        select{
+            border: none;
+            font-size: 13px;
+        }
+        select:hover{
+            color: red;
+        }
+        #main>div:last-child{
+            border: 1px solid red;
+            padding: 14px;
+            border-radius: 10px;
+            color: red;
+            cursor: pointer;
+        }
+        #main>div:last-child:hover{
+            background-color: lightsalmon;
+            border: none;
+        }
+        #content>div{
+            padding: 14px;
+        }
+        #content>div:hover{
+            color: red;
+        }
+        #content>div:last-child{
+            color: #6e71cc;
+            border-radius: 8px;
+           
+        }
+        #content>div:last-child:hover{
+            background-color: #a5cce1;
+        }
+        #svg{
+            display: none;
+        }
+        #svg>img{
+            width: 50px;
+            height: 30px;
+            
+        }
+        #smallnav{
+            display: none;
+            font-weight: 500;
+            font-size: 13px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #smallnav>div{
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+
+        @media all and (max-width:780px) {
+          #content>div{
+            display: none;
+            gap:0px;
+          }
+          #content>div:last-child{
+            display: block;
+          }
+         #main{
+            width: 100vw;
+         }
+         #main>div:last-child{
+            border: none;
+         }
+         #svg{
+            display: block;
+         }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main" >
+        <div id="svg"><img  src="https://www.svgrepo.com/show/65828/menu-bars.svg" alt=""></div>
+        <div><img src="https://www.masaischool.com/img/navbar/logo.svg" alt=""></div>
+        <div id="content" >
+            <div><Select>
+                <option value="">COURSES</option>
+                <option value="">Full Time</option>
+                <option value="">Part Time</option>
+            </Select></div>
+            <div>FEE AND ISA</div>
+            <div>ABOUT US</div>
+            <div>HIRE FROM US</div>
+            <div>FAQ</div>
+            <div>EVENETS</div>
+            <div>REFER AND EARN</div>
+        </div>
+        <div>LOGIN</div>
+    </div>
+    <div id="smallnav">
+        <div>Courses</div>
+        <div>Full Time</div>
+        <div>Part Time</div>
+        <div>Fees & ISA</div>
+        <div>About Us</div>
+        <div>Hire from Us</div>
+        <div>FAQ</div>
+        <div>Events</div>
+    </div>
+</body>
+</html>
+<script>
+   let flag=false;
+   let svg= document.getElementById("svg").addEventListener("click",()=>{
+      flag=!flag;
+      if(flag==true){
+        document.getElementById("smallnav").style.display="block"
+      }else{
+        document.getElementById("smallnav").style.display="none"
+      }
+   })
+</script>

@@ -1,0 +1,52 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border:2px  solid darkorchid;
+    border-style: dashed;
+}
+.nav>a>h3{
+    border-radius: 30px;
+    background-color: darkorchid;
+    color: aliceblue;
+    width: max-content;
+    padding: 10px 25px;
+    font-size: 24px;
+    text-align: center;   
+}
+.nav>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav>a>h3:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.repobox>div>img{
+   width: 100%;
+   height: 100%;
+}
+
+.repobox>div:last-child{
+    display: flex;
+    justify-content: space-around;
+}
+.repobox>div:last-child>div{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.repobox{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media all and (min-width:50px) and (max-width:380px) {
+   .nav{
+    display: block;
+    margin: auto;
+   }
+  }
+
+ 

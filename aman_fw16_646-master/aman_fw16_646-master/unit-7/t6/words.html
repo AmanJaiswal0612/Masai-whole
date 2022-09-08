@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #box{
+        display: flex;
+        gap:40px;
+        flex-wrap: wrap;
+      }
+      #main{
+        background-color: aqua;
+        width: 70%;
+        margin: auto;
+      }
+      #main>div:first-child{
+        display: flex;
+        gap:100px
+      }
+      
+    </style>
+</head>
+<body>
+    <div id="main">
+        
+        <div>
+            <h3>Your Words:</h3>
+            <div id="box"> </div>
+        </div>
+        <div><h3>Total Points: <span id="total"></span></h3></div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    let words= JSON.parse(localStorage.getItem("words"));
+    let tpoint= document.getElementById("total")
+    let box= document.getElementById('box');
+    let total=0;
+    let obj={
+    "a":1,
+    "e":1,
+    "i":1,
+    "o":1,
+    "u":1,
+    "b":3,
+    "c":3,
+    "f":4,
+    "g":2,
+    "h":4,
+    "l":1,
+    "m":3,
+    "n":1,
+    "r":1,
+    "s":1,
+    "t":1,
+    "v":4,
+    "w":4,
+    "y":4,
+    "z":10
+ }
+ for(let i=0;i<words.length;i++){
+    for(let j=0;j<words[i].length;j++){
+        total=total+obj[words[i][j]]
+    }
+ }
+ console.log(total)
+ tpoint.innerText=total
+    display(words)
+
+    function display(words){
+        box.innerHTML="";
+        words.map((el)=>{
+        let h3= document.createElement('h3');
+        h3.innerText=el;
+        box.append(h3)
+        })
+    }
+    
+</script>

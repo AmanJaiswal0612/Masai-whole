@@ -1,0 +1,40 @@
+{
+  "laptops": [
+    {
+      "model": "Hp43",
+      "year": "2020-07",
+      "os": "windows",
+      "sheight": 711,
+      "swidth": 1365,
+      "price": 49000,
+      "id": 1
+    },
+    {
+      "model": "Dell",
+      "year": "2020-03",
+      "os": "windows",
+      "sheight": 642,
+      "swidth": 1280,
+      "price": 52000,
+      "id": 2
+    },
+    {
+      "model": "lenevo p4",
+      "year": "2018-06",
+      "os": "windows",
+      "sheight": 732,
+      "swidth": 1400,
+      "price": 60000,
+      "id": 3
+    },
+    {
+      "model": "lenevo p4",
+      "year": "2018-06",
+      "os": "mac JK",
+      "sheight": 611,
+      "swidth": 1232,
+      "price": 75000,
+      "id": 4
+    }
+  ]
+}

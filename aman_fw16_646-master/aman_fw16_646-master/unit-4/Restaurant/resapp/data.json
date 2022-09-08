@@ -1,0 +1,247 @@
+{
+  "res": [
+    {
+      "id": 1,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.3,
+      "vote": 766,
+      "cost": 643,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 2,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.2,
+      "vote": 766,
+      "cost": 454,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 3,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 3.6,
+      "vote": 766,
+      "cost": 655,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 4,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.2,
+      "vote": 766,
+      "cost": 983,
+      "card": true,
+      "cash": false
+    },
+    {
+      "id": 5,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 2.8,
+      "vote": 766,
+      "cost": 564,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 6,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.5,
+      "vote": 766,
+      "cost": 255,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 7,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.2,
+      "vote": 766,
+      "cost": 921,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 8,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.9,
+      "vote": 766,
+      "cost": 1024,
+      "card": true,
+      "cash": false
+    },
+    {
+      "id": 9,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.8,
+      "vote": 766,
+      "cost": 653,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 10,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 2.9,
+      "vote": 766,
+      "cost": 981,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 11,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 3.6,
+      "vote": 766,
+      "cost": 355,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 12,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4,
+      "vote": 766,
+      "cost": 543,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 13,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 1.4,
+      "vote": 766,
+      "cost": 912,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 14,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.1,
+      "vote": 766,
+      "cost": 642,
+      "card": true,
+      "cash": false
+    },
+    {
+      "id": 15,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.2,
+      "vote": 766,
+      "cost": 632,
+      "card": true,
+      "cash": false
+    },
+    {
+      "id": 16,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.1,
+      "vote": 766,
+      "cost": 871,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 17,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.8,
+      "vote": 766,
+      "cost": 532,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 18,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4.5,
+      "vote": 766,
+      "cost": 200,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 19,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 2.4,
+      "vote": 766,
+      "cost": 1400,
+      "card": true,
+      "cash": true
+    },
+    {
+      "id": 20,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 3.4,
+      "vote": 766,
+      "cost": 764,
+      "card": false,
+      "cash": true
+    },
+    {
+      "id": 21,
+      "imgURL": "https://recipes-for-all.com/wp-content/uploads/2020/05/delish-antipasto-potato-salad-still001-1530191842-e1588452642459.jpg",
+      "title": "URU Brewpark",
+      "dish": "Pizza,Burger,Pasta,Desert",
+      "rating": 4,
+      "vote": 766,
+      "cost": 643,
+      "card": true,
+      "cash": true
+    },
+    {
+      "imgURL": "https://www.bing.com/th?id=OIP.e9lO4u8p0ADHffuzX4XDQQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "title": "Dosa plaza",
+      "dish": "Dosa",
+      "rating": "4.5",
+      "voting": "",
+      "cost": "135",
+      "card": true,
+      "cash": true,
+      "vote": "700",
+      "id": 22
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.case{
+    width: 200px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.main{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.case~div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+   
+}

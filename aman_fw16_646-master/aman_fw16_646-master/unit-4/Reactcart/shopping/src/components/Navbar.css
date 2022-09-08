@@ -1,0 +1,6 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #168;
+    color: aliceblue;
+}

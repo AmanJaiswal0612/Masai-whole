@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    margin-left: 10em;  
+  }
+  .main>h1{
+    margin: 8px;;
+    font-size: 75px;
+    color: #374b62;
+  }
+  .container{
+    height: 400px;
+    width:70%;
+    margin: auto;
+    background-image: url("https://thumbs.dreamstime.com/b/hourglass-time-banner-background-format-wood-54533019.jpg");
+    background-size: 100% 100%;
+  }
+  .btn{
+    display: flex;
+    margin-left:10em;
+  }
+  .btn>button{
+    background-color: #374b62;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    color:gray;
+    padding: 5px 20px;
+  }
+  body{
+    background-color:black
+  }
+  .header{
+   
+    font-size:80px;
+    text-align: center;
+    color:lightslategray;
+   
+  }

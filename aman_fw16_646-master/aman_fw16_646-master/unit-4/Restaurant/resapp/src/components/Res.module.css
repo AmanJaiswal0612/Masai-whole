@@ -1,0 +1,35 @@
+.form{
+   padding: 40px;
+    background-color: burlywood;
+    margin: 30px 0px;
+}
+.title{
+    background-color: black;
+    color: aliceblue;
+    font-size: 45px;
+    text-align: center;
+}
+.allbtn{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.allbtn>button{
+width: 50%;
+color: antiquewhite;
+background-color: black;
+border: none;
+}
+.allbtn>h4{
+    color: aliceblue;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.page>button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+}

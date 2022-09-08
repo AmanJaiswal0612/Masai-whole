@@ -1,0 +1,61 @@
+.ticmain{
+    display: grid;
+    width:10%;
+    grid-template-columns: repeat(3,auto);
+    margin-bottom: 50px;
+}
+.board{
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticmain>div{
+    border: 3px solid black;
+    width: 50px ;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.ticmain>div:nth-child(1){
+    border-top: none;
+    border-left: none;
+}
+.ticmain>div:nth-child(2){
+    border-top: none;
+}
+.ticmain>div:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+.ticmain>div:nth-child(4){
+    border-left:none ;
+}
+.ticmain>div:nth-child(6){
+    border-right:none ;
+}
+.ticmain>div:nth-child(7){
+    border-bottom: none;
+    border-left: none;
+}
+.ticmain>div:nth-child(8){
+    border-bottom: none;
+}
+.ticmain>div:nth-child(9){
+    border-bottom: none;
+    border-right: none;
+}
+.refress,.playagain{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.winner{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}

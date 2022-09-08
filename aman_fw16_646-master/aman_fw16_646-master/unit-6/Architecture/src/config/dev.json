@@ -1,0 +1,8 @@
+{
+    "db":{
+        "username":"devadmin",
+        "password":"devpassword",
+        "url": "mongodb:///dev.atlas.com/devdb"
+    },
+    "s3url": "dev.s3.aws.com"
+}

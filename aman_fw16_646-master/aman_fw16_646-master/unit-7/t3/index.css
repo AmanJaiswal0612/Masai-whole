@@ -1,0 +1,217 @@
+#navbar{
+    width:100%;
+    height:700px;
+    background-image: url("https://img2.10bestmedia.com/Images/Photos/329065/p-DelanoNight_54_990x660.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#uppernav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#uppernav>img{
+    width:50px;
+    height: 30px;
+}
+#centernav{
+    position: absolute;
+    top:25%;
+    left:25%;
+    text-align: center;
+}
+#centernav>h1{
+    font-size: 70px;
+}
+
+#centernav>div>button:first-child{
+    background-color: blueviolet;
+    color:white;
+    padding: 5px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+#centernav>div>button:last-child{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+#work{
+display:grid;
+grid-template-columns: 50% 50%;
+width: 80%;
+margin: auto;
+}
+#work>div>img{
+width: 100%;
+height: 100%;
+}
+#twow>img{
+width: 100%;
+height: 100%;
+}
+#twow{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+#apartment{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+}
+#apartment>div>img{
+width: 100%;
+height: 100%;
+
+}
+#apartment>div{
+width:22%;
+height: 400px;
+
+}
+.ar{
+display: grid;
+justify-content: center;
+align-content: center;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+
+#worka{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#three{
+    display:grid ;
+    grid-template-columns: auto auto;
+}
+.complex{
+    width: 100%;
+    height: 100%;
+}
+
+
+#post{
+display: grid;
+grid-template-columns: 70% 29%;
+justify-content: space-around;
+gap:10px;
+width: 90%;
+margin: auto;
+}
+
+#post>div:first-child{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto auto;
+align-items: center;
+
+}
+.insidepost{
+display: flex;
+align-items: center;
+gap:10px
+}
+#logo{
+width:70px;
+height: 50px;
+}
+#post>div:last-child{
+text-align: center;
+margin: auto;
+display: grid;
+justify-content: center;
+}
+
+
+#last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    width:60%;
+    margin: auto;
+}
+#last>p{
+    background-color: lightgray;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+@media all and (min-width:50px)and (max-width:380px){
+  #uppernav{
+    justify-content: space-between;
+  }
+  #centernav{
+    left:0%;
+    width: 100%;
+  }
+  #centernav>h1{
+    font-size: 30px;
+ }
+ #centernav>div>button{
+    width: 90%;
+    margin-top: 10px;
+ }
+ #apartment{
+    display: block;
+
+ }
+
+#apartment>div{
+    width: 100%;
+}
+#post{
+    display: block;
+}
+#post>div:first-child{
+    display: block;
+}
+#onew{
+    display: none;
+}
+#three{
+    display: block;
+}
+#worka{
+    display: block;
+}
+
+}
+
+@media all and (min-width:381px)and (max-width:781px){
+    #centerdnav>div{
+    display: flex;
+    gap:10px;
+   }
+    #centernav>h1{
+    font-size: 40px;
+ }
+ #uppernav{
+    justify-content: space-between;
+  }
+  #work{
+    display: block;
+  }
+
+
+  #apartment>div{
+width:50%;
+height: 400px;
+}
+#post>div:first-child{
+    display: block;
+}
+#worka{
+    display: block;
+}
+
+}

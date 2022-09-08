@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="search" type="text" />
+</body>
+</html>
+
+<script>
+var id; 
+const search= document.getElementById('search');
+search.addEventListener("input",()=>{
+    debounce(getData,1000)
+})
+
+const getData= async ()=>{
+  let searchvalue=search.value; 
+  let res= await fetch(`https://www.omdbapi.com/?apikey=1e46f4b6&s=${searchvalue}`)
+  let data=await res.json();
+//   let arr=[];
+//   for(let i=0;i<data.length;i++){
+//     if(data[i].name.toLowerCase().includes(searchvalue)){
+//         arr.push(data[i]);
+//     }
+//   }
+   console.log(data)
+}
+
+let debounce= (func,delay)=>{
+  if(id){
+    clearTimeout(id)
+    id=null;
+  }else{
+   id=setTimeout(()=>{
+      func();
+    },delay)
+  }
+}
+</script>

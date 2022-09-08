@@ -1,0 +1,37 @@
+
+.sidebar{
+    background-color: gainsboro;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    height: 700px;
+    padding: 30px;
+}
+.sidebar>img{
+    width:120px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+.sidebar>h2{
+    font-weight:400;
+}
+.sidebar>h2:nth-child(7){
+    margin-bottom: 70px;
+}
+.sidebar>h3{
+    color: gray;
+    font-weight: lighter;
+}
+.main{
+    display: grid;
+    grid-template-columns: 17% 83%;
+    
+}
+.link{
+    text-decoration: none;
+}
+
+.cart{
+    display:flex;
+    
+}
