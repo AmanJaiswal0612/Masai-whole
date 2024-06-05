@@ -1,0 +1,17 @@
+<div class="container" style="width: 60%;">
+    <h2>Customer Login</h2>
+    <form (ngSubmit)="login()" #loginForm="ngForm">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" name="username" required [(ngModel)]="username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" required [(ngModel)]="password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <button class="btn btn-secondary mt-3" (click)="registerUser()">Register as a User</button>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-3">{{ errorMessage }}</div>
+  </div>
+  
