@@ -1,0 +1,332 @@
+{
+    "restaurants": [
+      {
+        "restaurantName": "Sample Bistro",
+        "restaurantAddress": "101 Main St",
+        "restaurantMobileNumber": "234-567-8901",
+        "restaurantGmail": "samplebistro@gmail.com",
+        "restaurantMenu": [
+          {
+            "price": 348,
+            "menuItemName": "Veg Loaded",
+            "itemID": 39,
+            "description": "Tomato, Jalapeno, Corn, Grilled Mushroom & crushed Aranchini Patty in a fresh pan crust",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/e66/67f137415f266758203dea6e20d5ee66.jpg",
+            "categoryName": "pizza"
+          },
+          {
+            "price": 245,
+            "menuItemName": "ndi Tandoori Paneer Pizza",
+            "itemID": 38,
+            "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/21a/010b29da595df93d828ca0dca935821a.jpg",
+            "categoryName": "pizza"
+          },
+          {
+            "price": 138,
+            "menuItemName": "McChicken Burger",
+            "itemID": 29,
+            "description": "Tender and juicy chicken patty cooked to perfection, with creamy mayonnaise and crunchy lettuce adding flavour to each bite.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/631/51352086abd3efaaef530188aec16631.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 65,
+            "menuItemName": "McAloo Tikki Burger",
+            "itemID": 28,
+            "description": "The World's favourite Indian burger! Crunchy potato and peas patty with delicious Tom Mayo & crunchy onions; now with Whole Wheat Bun",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/084/a25f25f74a6a6068e55fcbced1580084.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 144,
+            "menuItemName": "McCheese Burger Veg",
+            "itemID": 27,
+            "description": "The Delicious McCheese Burger Veg (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty , roasted chipotle sauce, Jalapenos & Lettuce.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/252/28d4d94291cf9d70f5f559d1dfa46252.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 120,
+            "menuItemName": "Sandwich",
+            "itemID": 9,
+            "description": "Thatte Idli, Mixed Uttapam, Pineapple Sheera, Mysore Masala Dosa, Filtered Coffee, Panneer Butter Masala",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/510/053ad7f8bac7923c98d8478e515c6510.jpg",
+            "categoryName": "Sandwich"
+          },
+          {
+            "price": 350,
+            "menuItemName": "Pizza",
+            "itemID": 5,
+            "description": "Chirpy Crowd, Cozy Ambiance, Quality of Food, Not very Crowded, Pocket Friendly, Menu Options",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/c06/b6600d0110fc5cb7601136b10a205c06.jpg",
+            "categoryName": "Burger"
+          }
+        ],
+        "restaurantOrders": [],
+        "password": "securePass1",
+        "restaurantImage": "bistro.jpg",
+        "id": "1"
+      },
+      {
+        "restaurantName": "Dine Divine",
+        "restaurantAddress": "202 Elm St",
+        "restaurantMobileNumber": "345-678-9012",
+        "restaurantGmail": "dinedivine@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "dinePass2",
+        "restaurantImage": "divine.jpg",
+        "id": "2"
+      },
+      {
+        "restaurantName": "Food Fiesta",
+        "restaurantAddress": "303 Pine St",
+        "restaurantMobileNumber": "456-789-0123",
+        "restaurantGmail": "foodfiesta@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "fiestaPass3",
+        "restaurantImage": "fiesta.jpg",
+        "id": "3"
+      },
+      {
+        "restaurantName": "Gourmet Delight",
+        "restaurantAddress": "404 Oak St",
+        "restaurantMobileNumber": "567-890-1234",
+        "restaurantGmail": "gourmetdelight@gmail.com",
+        "restaurantMenu": [
+          {
+            "price": 140,
+            "menuItemName": "Margherita Pizza",
+            "itemID": 37,
+            "description": "Classic delight with 100% real mozzarella cheese. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/e84/7850b115687ee8594f9d7f0a66c2ee84.jpg",
+            "categoryName": "pizza"
+          },
+          {
+            "price": 238,
+            "menuItemName": "Farmhouse Pizza",
+            "itemID": 36,
+            "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/a14/96df50829eda0c0ffcc5169aeeb86a14.jpg",
+            "categoryName": "pizza"
+          },
+          {
+            "price": 259,
+            "menuItemName": "Veggie Paradise Pizza",
+            "itemID": 35,
+            "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/72a/2a8ea479040d62f82871e1be7470672a.jpg",
+            "categoryName": "pizza"
+          },
+          {
+            "price": 156,
+            "menuItemName": "Chicken Burger",
+            "itemID": 34,
+            "description": "Tender and juicy chicken patty cooked to perfection, with creamy mayonnaise and crunchy lettuce adding flavour to each bite.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/6f2/7a248018e36c112eb3fb0b877b4b06f2.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 60,
+            "menuItemName": "Aloo Tikki Burger",
+            "itemID": 33,
+            "description": "The World's favourite Indian burger! Crunchy potato and peas patty with delicious Tom Mayo & crunchy onions; now with Whole Wheat Bun",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/b09/1410c19d58b650a9585d2a4e89e23b09.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 120,
+            "menuItemName": "Cheese Burger Veg",
+            "itemID": 32,
+            "description": "The Delicious McCheese Burger Veg (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty , roasted chipotle sauce, Jalapenos & Lettuce.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/252/28d4d94291cf9d70f5f559d1dfa46252.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 170,
+            "menuItemName": "Sandwich",
+            "itemID": 11,
+            "description": "Thatte Idli, Mixed Uttapam, Pineapple Sheera, Mysore Masala Dosa, Filtered Coffee, Panneer Butter Masala",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/0c8/7703dc100ab1861693504bc37b0550c8.jpg",
+            "categoryName": "Sandwich"
+          }
+        ],
+        "restaurantOrders": [],
+        "password": "gourmetPass4",
+        "restaurantImage": "gourmet.jpg",
+        "id": "4"
+      },
+      {
+        "restaurantName": "Tasty Treats",
+        "restaurantAddress": "505 Maple St",
+        "restaurantMobileNumber": "678-901-2345",
+        "restaurantGmail": "tastytreats@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "tastyPass5",
+        "restaurantImage": "treats.jpg",
+        "id": "5"
+      },
+      {
+        "restaurantName": "Epic Eats",
+        "restaurantAddress": "606 Birch St",
+        "restaurantMobileNumber": "789-012-3456",
+        "restaurantGmail": "epiceats@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "epicPass6",
+        "restaurantImage": "epic.jpg",
+        "id": "6"
+      },
+      {
+        "restaurantName": "Savory Snacks",
+        "restaurantAddress": "707 Cedar St",
+        "restaurantMobileNumber": "890-123-4567",
+        "restaurantGmail": "savorysnacks@gmail.com",
+        "restaurantMenu": [
+          {
+            "price": 85,
+            "menuItemName": "McAloo Tikki Burger",
+            "itemID": 31,
+            "description": "The World's favourite Indian burger! Crunchy potato and peas patty with delicious Tom Mayo & crunchy onions; now with Whole Wheat Bun",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/2b8/12b045b7fd1d82b15ebde45b778e22b8.jpg",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 156,
+            "menuItemName": "McCheese Burger Veg",
+            "itemID": 30,
+            "description": "The Delicious McCheese Burger Veg (now with New Italian herb bun), is a burger with sinfully oozing cheesy veg patty , roasted chipotle sauce, Jalapenos & Lettuce.",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/ecb/023440d1bfa34403d51ce3e4ebe82ecb.png",
+            "categoryName": "Burger"
+          },
+          {
+            "price": 150,
+            "menuItemName": "Sandwich",
+            "itemID": 10,
+            "description": "Thatte Idli, Mixed Uttapam, Pineapple Sheera, Mysore Masala Dosa, Filtered Coffee, Panneer Butter Masala",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/b9a/97d2c6d0a488f89a86039da8a17cdb9a.jpg",
+            "categoryName": "Sandwich"
+          },
+          {
+            "price": 260,
+            "menuItemName": "Pizza",
+            "itemID": 8,
+            "description": "Chirpy Crowd, Cozy Ambiance, Quality of Food, Not very Crowded, Pocket Friendly, Menu Options",
+            "availability": true,
+            "photoUrl": "https://b.zmtcdn.com/data/dish_photos/614/6a505b1e40ce0f916f023ff72cf21614.png",
+            "categoryName": "Burger"
+          }
+        ],
+        "restaurantOrders": [],
+        "password": "savoryPass7",
+        "restaurantImage": "savory.jpg",
+        "id": "7"
+      },
+      {
+        "restaurantName": "Heavenly Bites",
+        "restaurantAddress": "808 Redwood St",
+        "restaurantMobileNumber": "901-234-5678",
+        "restaurantGmail": "heavenlybites@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "heavenlyPass8",
+        "restaurantImage": "bites.jpg",
+        "id": "8"
+      },
+      {
+        "restaurantName": "Flavor Fusion",
+        "restaurantAddress": "909 Willow St",
+        "restaurantMobileNumber": "012-345-6789",
+        "restaurantGmail": "flavorfusion@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "flavorPass9",
+        "restaurantImage": "fusion.jpg",
+        "id": "9"
+      },
+      {
+        "restaurantName": "Cuisine Corner",
+        "restaurantAddress": "1001 Spruce St",
+        "restaurantMobileNumber": "123-456-7891",
+        "restaurantGmail": "cuisinecorner@gmail.com",
+        "restaurantMenu": [],
+        "restaurantOrders": [],
+        "password": "cornerPass10",
+        "restaurantImage": "corner.jpg",
+        "id": "10"
+      }
+    ],
+    "customers": [
+      {
+        "username": "customer1",
+        "password": "password1",
+        "gmail": "customer1@gmail.com",
+        "address": "123 Main St",
+        "mobile": "123-456-7890",
+        "id": "1"
+      },
+      {
+        "username": "customer2",
+        "password": "password2",
+        "gmail": "customer2@gmail.com",
+        "address": "456 Elm St",
+        "mobile": "234-567-8901",
+        "id": "2"
+      },
+      {
+        "username": "customer3",
+        "password": "password3",
+        "gmail": "customer3@gmail.com",
+        "address": "789 Pine St",
+        "mobile": "345-678-9012",
+        "id": "3"
+      },
+      {
+        "id": "4",
+        "username": "Aman",
+        "password": "123456",
+        "gmail": "aman.jaiswal0612@gmail.com",
+        "address": "7HF 2/13G B H COLONY PATNA26",
+        "mobile": "07366976067"
+      }
+    ],
+    "orders":[
+      {
+          "customerId":"4",
+          "restaurantId":"7",
+          "orderedItems":[
+              {
+              "price": 260,
+              "menuItemName": "Pizza",
+              "itemID": 8,
+              "description": "Chirpy Crowd, Cozy Ambiance, Quality of Food, Not very Crowded, Pocket Friendly, Menu Options",
+              "availability": true,
+              "photoUrl": "https://b.zmtcdn.com/data/dish_photos/614/6a505b1e40ce0f916f023ff72cf21614.png",
+              "categoryName": "Burger",
+              "quantity":1
+              }
+          ],
+          "status":"progress"
+      }
+    ]
+  }
